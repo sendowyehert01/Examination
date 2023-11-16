@@ -1,3 +1,8 @@
+I am already done in the Examination and here is the public URL provided by Vercel but I think the provided server/backend has a problem in CORS and It always gives me error in  Cross-Origin-Resource-Sharing. I think to address the problem is to debug the backend by installing CORS and edit the configuration. To do the examination,  I install a temporary solution which is installing a Browser Extension. 
+
+<p>Please install <h1>Allow CORS: Access-Control-Allow-Origin</h1></p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
