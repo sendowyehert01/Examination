@@ -3,7 +3,7 @@ import _ from "lodash";
 import Resto from "./Resto";
 import './Restaurant.css';
 
-const RESTAURANT = "https://nextjs-orpin-omega-98.vercel.app/api/restaurants";
+const RESTAURANT = process.env.REACT_APP_BASE_URL;
 
 function Restaurants() {
     const [resto, setResto] = useState([])
