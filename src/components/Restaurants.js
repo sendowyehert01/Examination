@@ -3,7 +3,7 @@ import _ from "lodash";
 import Resto from "./Resto";
 import './Restaurant.css';
 
-const RESTAURANT = process.env.REACT_APP_BASE_URL;
+const RESTAURANT = "https://nextjs-orpin-omega-98.vercel.app/api/restaurants";
 
 function Restaurants() {
     const [resto, setResto] = useState([])
@@ -26,7 +26,7 @@ const neew = Object.values(resto)
 let myKeys = Object.keys(output);
 
   return (
-        <div>
+        <div className="MainContainer">
             <Resto myKeys={myKeys} neew={neew}/>
         </div>
 )
