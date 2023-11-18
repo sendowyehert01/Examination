@@ -3,7 +3,7 @@ import _ from "lodash";
 import Resto from "./Resto";
 import './Restaurant.css';
 
-const RESTAURANT = "https://cors-anywhere.herokuapp.com/https://nextjs-orpin-omega-98.vercel.app/api/restaurants";
+const RESTAURANT = "https://cors.proxy.consumet.org/https://nextjs-orpin-omega-98.vercel.app/api/restaurants";
 
 function Restaurants() {
     const [resto, setResto] = useState([])
